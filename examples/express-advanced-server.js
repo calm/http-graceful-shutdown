@@ -47,6 +47,7 @@ gracefulShutdown(server,
     development: false,
     onShutdown: cleanup,
     forceExit: true,
+    shutdownTimeout: 1000,
     finally: function () {
       console.log()
       console.log('In "finally" function')
