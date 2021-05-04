@@ -1,6 +1,6 @@
 {
   "name": "@calm/http-graceful-shutdown",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "description": "gracefully shuts downs http server",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -12,7 +12,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/sebhildebrandt/http-graceful-shutdown.git"
+    "url": "https://github.com/calm/http-graceful-shutdown.git"
   },
   "keywords": [
     "http",
