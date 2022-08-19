@@ -21,4 +21,4 @@ declare namespace GracefulShutdown {
   }
 }
 
-export = GracefulShutdown;
+export = GracefulShutdown
