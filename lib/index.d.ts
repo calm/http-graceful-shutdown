@@ -11,13 +11,13 @@ declare function GracefulShutdown(
 
 declare namespace GracefulShutdown {
   interface Options {
-    signals?: string
-    timeout?: number
-    development?: boolean
-    forceExit?: boolean
-    preShutdown?: () => Promise<void>
-    onShutdown?: (signal: string) => Promise<void>
-    finally?: () => void
+    signals?: string;
+    timeout?: number;
+    development?: boolean;
+    forceExit?: boolean;
+    preShutdown?: (signal?: string) => Promise<void>;
+    onShutdown?: (signal?: string) => Promise<void>;
+    finally?: () => void;
   }
 }
 
